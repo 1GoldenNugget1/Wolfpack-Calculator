@@ -1,0 +1,19 @@
+{
+  "name": "wolfpack-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kasp",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./index.mjs",
+    "kill": "npx npkill",
+    "prod": "node ./index.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "pretty-ms": "^9.0.0"
+  }
+}
